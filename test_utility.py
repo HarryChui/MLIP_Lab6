@@ -38,4 +38,4 @@ def feature_target_sample(housing_data_sample):
 def test_data_split(feature_target_sample):
     return_tuple = data_split(*feature_target_sample)
     # Test if the length of the return tuple is 4
-    assert len(return_tuple) == 4, "Expected 4 elements in the tuple (X_train, X_test, y_train, y_test)"
+    assert len(return_tup
